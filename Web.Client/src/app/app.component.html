@@ -1,0 +1,16 @@
+<div class='container'>
+    <!-- <div *ngIf="currentUser else bigLogo"> -->
+    <div *ngIf="currentUser">
+        <nav class="navbar navbar-expand navbar-dark bg-light ">
+            <div class="navbar-nav d-flex justify-content-between w-100 align-items-center">
+                <a class="nav-item nav-link" routerLink="/"><img class="logo" src="../assets/images/Logo.jpg" alt="logo" /></a>
+                <!-- <a class="nav-item nav-link" routerLink="/">Gallery</a> -->
+                <a id="logout" class="nav-item nav-link" (click)="logout()">Logout</a>
+            </div>
+        </nav>
+    </div>
+    <!-- <ng-template #bigLogo>
+    <img src="../assets/images/Logo.jpg">
+  </ng-template> -->
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImageGallery.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ImageGallery.Api.Controllers.GalleryController.GetAllGalleriesForUser">
+            <summary>
+            Get galleries for user.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ImageGallery.Api.Controllers.GalleryController.GetGalleryById(System.Int32)">
+            <summary>
+            Get gallery by id.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ImageGallery.Api.Controllers.GalleryController.CreateGallery">
+            <summary>
+            Add a new gallery.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ImageGallery.Api.Controllers.GalleryController.UpdateGallery(System.Int32)">
+            <summary>
+            Update Update an existing gallery.  
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ImageGallery.Api.Controllers.GalleryController.DeleteGallery(System.Collections.Generic.IEnumerable{System.Int32})">
+            <summary>
+            Delete galleries by ids.
+            </summary>
+            <param name="ids"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
